@@ -24,7 +24,7 @@ For example: pip install -t . splunk-sdk
 
 For example: /opt/splunk/bin/./splunk restart
 
-5- Change the Sysmon-Access-Rights app permission to all apps (system)
+5- Change the Sysmon-Access-Rights app permissions to all apps (system)
 
 For example: Go to the Manage Apps section then search for Sysmon_Access_Right, then from sharing section choose Permissions then select all apps.
 
