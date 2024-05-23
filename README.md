@@ -1,5 +1,11 @@
-# Get-Sysmon-Access-Rights
-The Get-Sysmon-Access-Rights Splunk App has a function for creating and parsing mask strings. you can use it with "showaccessright" spl command in your SPL
+# Get-Sysmon-Access-Rights Splunk app
+By using the Sysmon_Access_Right Splunk app, you can extract Granted Access values from Sysmon events with EventCode 10 and convert these values from hexadecimal format to a readable and interpretable format for security analysts.
+
+The Get-Sysmon-Access-Rights Splunk App has a function for creating and parsing mask strings. you can use it with "showaccessright" spl command in your SPL.
+
+Please refer to this link for more information.
+
+https://github.com/trustedsec/SysmonCommunityGuide/blob/master/chapters/process-access.md
 
 # Installation Process
 1- Copy Sysmon_Access_Right to splunk app directory
