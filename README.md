@@ -12,7 +12,7 @@ https://github.com/trustedsec/SysmonCommunityGuide/blob/master/chapters/process-
 
 For example: cp -r Sysmon_Access_Right /opt/splunk/etc/apps/ 
 
-2- Go to Sysmon_Access_Right bin directory 
+2- Go to Sysmon_Access_Right/bin directory 
 
 For example: cd /opt/splunk/etc/apps/Sysmon_Access_Right/bin
 
