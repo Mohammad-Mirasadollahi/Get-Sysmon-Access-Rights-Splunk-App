@@ -30,7 +30,7 @@ For example: Go to the Manage Apps section then search for Get-Sysmon-Access-Rig
 
 # showaccessright spl command
 
-For creating and parsing mask strings Just use ... | showaccessright <field>
+For creating and parsing mask strings Just use ... | showaccessright "<field>"
 
 For exmaple:
 
