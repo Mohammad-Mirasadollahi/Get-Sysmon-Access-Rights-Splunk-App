@@ -1,4 +1,4 @@
-# Get-Sysmon-Access-Rights Splunk app
+# Get Sysmon Access Rights Splunk app
 By using the Sysmon_Access_Right Splunk app, you can extract GrantedAccess values from Sysmon events with EventCode 10 and convert these values from hexadecimal format to a readable format for security analysts in Splunk.
 
 The Get-Sysmon-Access-Rights Splunk App has a function for creating and parsing mask strings. you can use it with "showaccessright" spl command in your SPL.
