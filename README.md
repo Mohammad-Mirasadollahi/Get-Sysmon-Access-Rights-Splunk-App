@@ -1,0 +1,1 @@
+# Get-Sysmon-Access-Rights
