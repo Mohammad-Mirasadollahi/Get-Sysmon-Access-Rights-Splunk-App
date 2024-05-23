@@ -28,6 +28,10 @@ For example: /opt/splunk/bin/./splunk restart
 
 For example: Go to the Manage Apps section then search for Get-Sysmon-Access-Rights, then from sharing section choose Permissions then select all apps.
 
+
+![image](https://github.com/Mohammad-Mirasadollahi/Get-Sysmon-Access-Rights-Splunk-App/assets/150103330/d9a271f0-9f08-46b8-b3e2-92cfbd70419f)
+
+
 # showaccessright spl command
 
 For creating and parsing mask strings Just use ... | showaccessright <field_name>
