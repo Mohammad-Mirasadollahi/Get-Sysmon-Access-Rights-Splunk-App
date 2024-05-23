@@ -37,3 +37,7 @@ For exmaple:
 | makeresults count=3 
 | eval GrantedAccess="0xffff" 
 | showaccessright GrantedAccess
+
+
+![image](https://github.com/Mohammad-Mirasadollahi/Get-Sysmon-Access-Rights-Splunk-App/assets/150103330/5c89a045-8c01-4395-85c9-26b5d1d9b857)
+
