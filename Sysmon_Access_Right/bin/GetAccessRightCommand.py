@@ -30,10 +30,15 @@ class GetAccessRightCommand(StreamingCommand):
     def stream(self, records):
         for record in records:
             input_field = self.fieldnames[0] # Get the input field name directly from the first field
-            if input_field in record:
-                access_value = int(record[input_field], 0)
-                access_rights = get_access_right(access_value)
-                record['AccessRights'] = access_rights # Add AccessRights field containing access rights
+            if input_field in record and record[input_field]:  # Ensure the field is present and not empty
+                try:
+                    access_value = int(record[input_field], 0)
+                    access_rights = get_access_right(access_value)
+                    record['AccessRights'] = access_rights # Add AccessRights field containing access rights
+                except ValueError:
+                    record['AccessRights'] = 'Invalid access value'
+            else:
+                record['AccessRights'] = 'Missing or empty access value'
             yield record
 
 if __name__ == "__main__":
